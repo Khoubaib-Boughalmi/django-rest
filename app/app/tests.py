@@ -2,7 +2,7 @@ from django.test import SimpleTestCase
 from app import calc
 
 
-class TestCalc(SimpleTestCase):
+class test_calc(SimpleTestCase):
     """Test the add function from calc.py"""
     def test_add(self):
         res = calc.add(3, 8)
