@@ -1,6 +1,7 @@
 from django.test import SimpleTestCase
 from app import calc
 
+
 class TestCalc(SimpleTestCase):
     """Test the add function from calc.py"""
     def test_add(self):
